@@ -2,11 +2,13 @@
 # Edit at https://www.toptal.com/developers/gitignore?templates=macos,visualstudiocode,c++
 
 ### file without extension ###
+
 FizzBuzz
 NotGood
 
 ### macOS ###
 # General
+
 .DS_Store
 .AppleDouble
 .LSOverride
