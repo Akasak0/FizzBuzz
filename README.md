@@ -57,3 +57,36 @@ ruby ruby/FizzBuzz.rb
 ``` bash
 shell_script/FizzBuzz.sh
 ```
+
+# ファイル構成
+```
+.
+├── README.md
+└── source_codes
+    ├── c
+    │   ├── FizzBuzz
+    │   ├── FizzBuzz.c
+    │   ├── NotGood
+    │   └── NotGood.c
+    ├── c++
+    │   ├── FizzBuzz
+    │   ├── FizzBuzz.cpp
+    │   ├── NotGood
+    │   └── NotGood.cpp
+    ├── java
+    │   ├── FizzBuzz.java
+    │   └── NotGood.java
+    ├── java_script
+    │   ├── FizzBuzz.js
+    │   └── NotGood.js
+    ├── python
+    │   ├── FizzBuzz.py
+    │   └── NotGood.py
+    ├── ruby
+    │   ├── FizzBuzz.rb
+    │   └── NotGood.rb
+    └── shell_script
+        └── FizzBuzz.sh
+
+9 directories, 18 files
+```
