@@ -58,7 +58,7 @@ ruby ruby/FizzBuzz.rb
 shell_script/FizzBuzz.sh
 ```
 
-# ファイル構成
+# Directory tree
 ```
 .
 ├── README.md
