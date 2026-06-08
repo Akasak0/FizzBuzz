@@ -16,6 +16,7 @@ macOS
 | JavaScript | node v25.9.0 |
 | Python | Python 3.14.3 |
 | Ruby | ruby 4.0.5 (2026-05-20 revision 64336ffd0e) +PRISM [arm64-darwin25] |
+| PHP | PHP 8.5.7 (cli) |
 
 ## 実行
 
@@ -23,39 +24,44 @@ macOS
 
 ### C
 ``` bash
-gcc c/FizzBuzz.c -o c/FizzBuzz
+gcc source_codes/c/FizzBuzz.c -o c/FizzBuzz
 c/FizzBuzz
 ```
 
 ### C++
 ``` bash
-g++ c++/FizzBuzz.cpp -o c++/FizzBuzz
+g++ source_codes/c++/FizzBuzz.cpp -o c++/FizzBuzz
 c++/FizzBuzz
 ```
 
 ### Java
 ``` bash
-java java/FizzBuzz.java
+java source_codes/java/FizzBuzz.java
 ```
 
 ### JavaScript
 ``` bash
-node java_script/FizzBuzz.js
+node source_codes/java_script/FizzBuzz.js
+```
+
+### PHP
+``` bash
+php source_codes/php/FizzBuzz.php
 ```
 
 ### Python
 ``` bash
-python3 python/FizzBuzz.py
+python3 source_codes/python/FizzBuzz.py
 ```
 
 ### Ruby
 ``` bash
-ruby ruby/FizzBuzz.rb
+ruby source_codes/ruby/FizzBuzz.rb
 ```
 
 ### Shell script
 ``` bash
-shell_script/FizzBuzz.sh
+source_codes/shell_script/FizzBuzz.sh
 ```
 
 # Directory tree
@@ -73,12 +79,16 @@ shell_script/FizzBuzz.sh
     │   ├── FizzBuzz.cpp
     │   ├── NotGood
     │   └── NotGood.cpp
+    ├── go
+    │   └── FizzBuzz.go
     ├── java
     │   ├── FizzBuzz.java
     │   └── NotGood.java
     ├── java_script
     │   ├── FizzBuzz.js
     │   └── NotGood.js
+    ├── php
+    │   └── FizzBuzz.php
     ├── python
     │   ├── FizzBuzz.py
     │   └── NotGood.py
@@ -88,5 +98,5 @@ shell_script/FizzBuzz.sh
     └── shell_script
         └── FizzBuzz.sh
 
-9 directories, 18 files
+11 directories, 20 files
 ```
